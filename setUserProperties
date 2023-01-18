@@ -1,0 +1,3 @@
+function setUserProperties() {
+  PropertiesService.getUserProperties().setProperty('key', 'value');
+}
