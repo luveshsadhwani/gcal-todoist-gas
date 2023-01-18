@@ -2,7 +2,7 @@
 const atlasBaseUrl = 'https://data.mongodb-api.com/app/data-xipls/endpoint/data/v1'
 const atlasHeaders = {
   'api-key': PropertiesService.getUserProperties().getProperty("atlasApiKey"),
-  'Content-Type': '	application/json'
+  'Content-Type': 'application/json'
 }
 
 // Database info
