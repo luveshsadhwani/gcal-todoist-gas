@@ -11,3 +11,6 @@ Motivation: Todoist only does integration with one email (which is my personal e
 2. Search for any existing todoist task for that event (via event id)
 3. Update todoist app via todoist API
 4. Upsert document that links event_id to todoist task_id
+
+## Learnings:
+1. For easier debugging, since this is functional programming, log the function name followed by the output.
